@@ -9,9 +9,9 @@ import { AppComponent } from './app.component';
 import { UploaderModule } from 'angular-uploader';
 import { UploaderComponent } from './uploader/uploader.component';
 import { DropzoneComponent } from './uploader/dropzone/dropzone.component';
-import { Ng2FileUploadComponent } from './uploader/ng2-file-upload/ng2-file-upload.component';
+import { Ng2FileUploadComponent } from './ng2-file-upload/ng2-file-upload.component';
 import { FileUploadModule } from 'ng2-file-upload';
-import { UppyComponent } from './uploader/uppy/uppy.component';
+import { UppyComponent } from './uppy/uppy.component';
 
 @NgModule({
   declarations: [

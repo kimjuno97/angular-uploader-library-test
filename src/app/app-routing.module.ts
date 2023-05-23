@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { UploaderComponent } from './uploader/uploader.component';
-import { Ng2FileUploadComponent } from './uploader/ng2-file-upload/ng2-file-upload.component';
-import { UppyComponent } from './uploader/uppy/uppy.component';
+import { Ng2FileUploadComponent } from './ng2-file-upload/ng2-file-upload.component';
+import { UppyComponent } from './uppy/uppy.component';
 
 const routes: Routes = [
   {
