@@ -1,0 +1,6 @@
+.drop-zone {
+  & > div {
+    border: 1px red solid;
+    background-color: aqua;
+  }
+}

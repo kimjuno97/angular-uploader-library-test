@@ -1,0 +1,12 @@
+<a href="{{ uploadedFileUrl }}" target="_blank">{{ uploadedFileUrl }}</a>
+<button
+  uploadButton
+  [uploadComplete]="onComplete"
+  [uploadOptions]="options"
+  [uploader]="uploader"
+>
+  Upload a file...
+</button>
+
+<h2 style="margin-top: 30px">dropzone</h2>
+<app-dropzone></app-dropzone>
